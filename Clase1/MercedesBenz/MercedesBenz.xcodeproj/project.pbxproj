@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A9BDD688584E8FC53149C41 /* Pods_MercedesBenz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCFAB422E18053D5FD182BDE /* Pods_MercedesBenz.framework */; };
+		FA02FEEB1F425BC7004AD942 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA02FEEA1F425BC7004AD942 /* AppDelegate.swift */; };
+		FA02FEED1F425BC7004AD942 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA02FEEC1F425BC7004AD942 /* ViewController.swift */; };
+		FA02FEF01F425BC7004AD942 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA02FEEE1F425BC7004AD942 /* Main.storyboard */; };
+		FA02FEF21F425BC7004AD942 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA02FEF11F425BC7004AD942 /* Assets.xcassets */; };
+		FA02FEF51F425BC7004AD942 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA02FEF31F425BC7004AD942 /* LaunchScreen.storyboard */; };
+		FA02FEFE1F4266C7004AD942 /* mercedes.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FA02FEFD1F4266C7004AD942 /* mercedes.jpeg */; };
+		FA02FF001F427233004AD942 /* MercedesLogo2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA02FEFF1F427233004AD942 /* MercedesLogo2.jpg */; };
+		FA02FF021F42762F004AD942 /* SegundaVista.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA02FF011F42762F004AD942 /* SegundaVista.swift */; };
+		FA02FF041F427691004AD942 /* TerceraVista.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA02FF031F427691004AD942 /* TerceraVista.swift */; };
+		FA02FF061F4276AB004AD942 /* CuartaVista.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA02FF051F4276AB004AD942 /* CuartaVista.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DCFAB422E18053D5FD182BDE /* Pods_MercedesBenz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MercedesBenz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA02FEE71F425BC7004AD942 /* MercedesBenz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MercedesBenz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA02FEEA1F425BC7004AD942 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA02FEEC1F425BC7004AD942 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA02FEEF1F425BC7004AD942 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA02FEF11F425BC7004AD942 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA02FEF41F425BC7004AD942 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA02FEF61F425BC7004AD942 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA02FEFD1F4266C7004AD942 /* mercedes.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mercedes.jpeg; path = "../../../../Documents/Curso iOS/img/mercedes.jpeg"; sourceTree = "<group>"; };
+		FA02FEFF1F427233004AD942 /* MercedesLogo2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = MercedesLogo2.jpg; path = "../../../../Documents/Curso iOS/img/MercedesLogo2.jpg"; sourceTree = "<group>"; };
+		FA02FF011F42762F004AD942 /* SegundaVista.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegundaVista.swift; sourceTree = "<group>"; };
+		FA02FF031F427691004AD942 /* TerceraVista.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TerceraVista.swift; sourceTree = "<group>"; };
+		FA02FF051F4276AB004AD942 /* CuartaVista.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CuartaVista.swift; sourceTree = "<group>"; };
+		FD7942AD1DBA29C15D76ED10 /* Pods-MercedesBenz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MercedesBenz.release.xcconfig"; path = "Pods/Target Support Files/Pods-MercedesBenz/Pods-MercedesBenz.release.xcconfig"; sourceTree = "<group>"; };
+		FDDD30233A753277CA1936DF /* Pods-MercedesBenz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MercedesBenz.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MercedesBenz/Pods-MercedesBenz.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA02FEE41F425BC7004AD942 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A9BDD688584E8FC53149C41 /* Pods_MercedesBenz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1511882F8249A09BE31E131 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FDDD30233A753277CA1936DF /* Pods-MercedesBenz.debug.xcconfig */,
+				FD7942AD1DBA29C15D76ED10 /* Pods-MercedesBenz.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ED7084A933222D88989F3573 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCFAB422E18053D5FD182BDE /* Pods_MercedesBenz.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA02FEDE1F425BC7004AD942 = {
+			isa = PBXGroup;
+			children = (
+				FA02FEE91F425BC7004AD942 /* MercedesBenz */,
+				FA02FEE81F425BC7004AD942 /* Products */,
+				D1511882F8249A09BE31E131 /* Pods */,
+				ED7084A933222D88989F3573 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FA02FEE81F425BC7004AD942 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA02FEE71F425BC7004AD942 /* MercedesBenz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA02FEE91F425BC7004AD942 /* MercedesBenz */ = {
+			isa = PBXGroup;
+			children = (
+				FA02FEFC1F426690004AD942 /* Images */,
+				FA02FEEA1F425BC7004AD942 /* AppDelegate.swift */,
+				FA02FEEC1F425BC7004AD942 /* ViewController.swift */,
+				FA02FEEE1F425BC7004AD942 /* Main.storyboard */,
+				FA02FF051F4276AB004AD942 /* CuartaVista.swift */,
+				FA02FF031F427691004AD942 /* TerceraVista.swift */,
+				FA02FF011F42762F004AD942 /* SegundaVista.swift */,
+				FA02FEF11F425BC7004AD942 /* Assets.xcassets */,
+				FA02FEF31F425BC7004AD942 /* LaunchScreen.storyboard */,
+				FA02FEF61F425BC7004AD942 /* Info.plist */,
+			);
+			path = MercedesBenz;
+			sourceTree = "<group>";
+		};
+		FA02FEFC1F426690004AD942 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				FA02FEFF1F427233004AD942 /* MercedesLogo2.jpg */,
+				FA02FEFD1F4266C7004AD942 /* mercedes.jpeg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA02FEE61F425BC7004AD942 /* MercedesBenz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA02FEF91F425BC7004AD942 /* Build configuration list for PBXNativeTarget "MercedesBenz" */;
+			buildPhases = (
+				BDCE60BE859AFE296A6A6C60 /* [CP] Check Pods Manifest.lock */,
+				FA02FEE31F425BC7004AD942 /* Sources */,
+				FA02FEE41F425BC7004AD942 /* Frameworks */,
+				FA02FEE51F425BC7004AD942 /* Resources */,
+				75FAF86147692CFE299BA585 /* [CP] Embed Pods Frameworks */,
+				CECF9399246464EDC06BA561 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MercedesBenz;
+			productName = MercedesBenz;
+			productReference = FA02FEE71F425BC7004AD942 /* MercedesBenz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA02FEDF1F425BC7004AD942 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Alejandro Agudo";
+				TargetAttributes = {
+					FA02FEE61F425BC7004AD942 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FA02FEE21F425BC7004AD942 /* Build configuration list for PBXProject "MercedesBenz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA02FEDE1F425BC7004AD942;
+			productRefGroup = FA02FEE81F425BC7004AD942 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA02FEE61F425BC7004AD942 /* MercedesBenz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA02FEE51F425BC7004AD942 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA02FEF51F425BC7004AD942 /* LaunchScreen.storyboard in Resources */,
+				FA02FF001F427233004AD942 /* MercedesLogo2.jpg in Resources */,
+				FA02FEFE1F4266C7004AD942 /* mercedes.jpeg in Resources */,
+				FA02FEF21F425BC7004AD942 /* Assets.xcassets in Resources */,
+				FA02FEF01F425BC7004AD942 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		75FAF86147692CFE299BA585 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MercedesBenz/Pods-MercedesBenz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDCE60BE859AFE296A6A6C60 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MercedesBenz-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CECF9399246464EDC06BA561 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MercedesBenz/Pods-MercedesBenz-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MercedesBenz/Pods-MercedesBenz-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA02FEE31F425BC7004AD942 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA02FEED1F425BC7004AD942 /* ViewController.swift in Sources */,
+				FA02FEEB1F425BC7004AD942 /* AppDelegate.swift in Sources */,
+				FA02FF061F4276AB004AD942 /* CuartaVista.swift in Sources */,
+				FA02FF041F427691004AD942 /* TerceraVista.swift in Sources */,
+				FA02FF021F42762F004AD942 /* SegundaVista.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FA02FEEE1F425BC7004AD942 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA02FEEF1F425BC7004AD942 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA02FEF31F425BC7004AD942 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA02FEF41F425BC7004AD942 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA02FEF71F425BC7004AD942 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA02FEF81F425BC7004AD942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA02FEFA1F425BC7004AD942 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDDD30233A753277CA1936DF /* Pods-MercedesBenz.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MercedesBenz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Caliente.MercedesBenz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FA02FEFB1F425BC7004AD942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD7942AD1DBA29C15D76ED10 /* Pods-MercedesBenz.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MercedesBenz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Caliente.MercedesBenz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA02FEE21F425BC7004AD942 /* Build configuration list for PBXProject "MercedesBenz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA02FEF71F425BC7004AD942 /* Debug */,
+				FA02FEF81F425BC7004AD942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA02FEF91F425BC7004AD942 /* Build configuration list for PBXNativeTarget "MercedesBenz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA02FEFA1F425BC7004AD942 /* Debug */,
+				FA02FEFB1F425BC7004AD942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA02FEDF1F425BC7004AD942 /* Project object */;
+}

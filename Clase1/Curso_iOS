@@ -1,0 +1,8 @@
+Declaracion de variables
+
+var str = "Hola mundo" // declaracion implicita
+
+var str2.String = "Hola mundo" // explicita
+
+// tipo de datos
+
