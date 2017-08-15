@@ -12,6 +12,7 @@
 		FA8C5CDD1F435017005A1129 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA8C5CDB1F435017005A1129 /* Main.storyboard */; };
 		FA8C5CDF1F435017005A1129 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA8C5CDE1F435017005A1129 /* Assets.xcassets */; };
 		FA8C5CE71F435159005A1129 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8C5CE61F435159005A1129 /* ViewController2.swift */; };
+		FA8C5CF41F435704005A1129 /* Mercedes-Benz-GLE.png in Resources */ = {isa = PBXBuildFile; fileRef = FA8C5CF31F435704005A1129 /* Mercedes-Benz-GLE.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FA8C5CDE1F435017005A1129 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA8C5CE01F435017005A1129 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA8C5CE61F435159005A1129 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		FA8C5CF31F435704005A1129 /* Mercedes-Benz-GLE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Mercedes-Benz-GLE.png"; path = "img/Mercedes-Benz-GLE.png"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		FA8C5CD61F435017005A1129 /* BenzAppleTV */ = {
 			isa = PBXGroup;
 			children = (
+				FA8C5CEA1F435381005A1129 /* imagenes */,
 				FA8C5CD71F435017005A1129 /* AppDelegate.swift */,
 				FA8C5CD91F435017005A1129 /* ViewController.swift */,
 				FA8C5CE61F435159005A1129 /* ViewController2.swift */,
@@ -62,6 +65,14 @@
 				FA8C5CE01F435017005A1129 /* Info.plist */,
 			);
 			path = BenzAppleTV;
+			sourceTree = "<group>";
+		};
+		FA8C5CEA1F435381005A1129 /* imagenes */ = {
+			isa = PBXGroup;
+			children = (
+				FA8C5CF31F435704005A1129 /* Mercedes-Benz-GLE.png */,
+			);
+			name = imagenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA8C5CDF1F435017005A1129 /* Assets.xcassets in Resources */,
+				FA8C5CF41F435704005A1129 /* Mercedes-Benz-GLE.png in Resources */,
 				FA8C5CDD1F435017005A1129 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
