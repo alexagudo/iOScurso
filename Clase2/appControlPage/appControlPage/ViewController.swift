@@ -1,6 +1,6 @@
 //
-//  FirstViewController.swift
-//  App2WhatsUniversal
+//  ViewController.swift
+//  appControlPage
 //
 //  Created by Alejandro Agudo on 8/15/17.
 //  Copyright © 2017 Alejandro Agudo. All rights reserved.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,12 +20,6 @@ class FirstViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func alertView(_ sender: Any) {
-        let actionSheetController = UIAlertController(title:"Alert", message:"Mensaje", preferredStyle:.alert)
-        actionSheetController.addAction(UIAlertAction(title:"OK",style:.default, handler:nil))
-        present(actionSheetController, animated: true, completion: nil)
-    }
- 
 
 }
 

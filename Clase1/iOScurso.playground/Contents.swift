@@ -44,3 +44,17 @@ let alfabeto = alfa + beta
 let char0:Character = "x"
 let char1:Character = "y"
 //let union:Character = char0 + char1
+
+
+// Cadenas y strings
+
+var numeroPerros = 5
+var cadenaCaracteres:String = "Mi nombre es Juan y tengo \(numeroPerros)"
+var cadenaCaracteres2:String = " perros."
+
+// Concatenacion la union de dos cadenas
+
+var cadenaCaracteres3:String = cadenaCaracteres + cadenaCaracteres2
+
+// Arreglos & Arrays contenedores especiales
+var ejemploArray:[String] = ["Arroz","Pescado","Cebolla","Pollo"]
