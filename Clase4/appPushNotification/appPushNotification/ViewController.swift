@@ -11,19 +11,6 @@ import UIKit
 import UserNotifications
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        UNUserNotificationCenter.current().requestAuthorization(options: [.alert]){
-            (success, error) in
-            if success {
-                    print("success")
-            } else {
-                    print("error")
-            }
-        }
-    }
     
     @IBAction func sendNotification(_ sender: AnyObject){
         // 1 Definir Variable content -- Este contenido nos da en el Local Notification
@@ -34,7 +21,7 @@ class ViewController: UIViewController {
         
         // 2 Definir la imagen
         let imageName = "apple-logo"
-        guard let imageURL = Bundle.main.url(forResource: imageName, withExtension: "png") else {return}
+        guard let imageURL = Bundle.main.url(forResource: imageName, withExtension: "png") else { return }
         
         let attachment = try! UNNotificationAttachment(identifier: imageName, url: imageURL, options: .none)
         
@@ -50,6 +37,21 @@ class ViewController: UIViewController {
         
     }
 
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
+        UNUserNotificationCenter.current().requestAuthorization(options: [.alert]){
+            (success, error) in
+            if success {
+                    print("success")
+            } else {
+                    print("error")
+            }
+        }
+    }
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

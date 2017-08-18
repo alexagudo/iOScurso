@@ -12,7 +12,7 @@
 		FA45BD041F4663A10042A483 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA45BD021F4663A10042A483 /* Main.storyboard */; };
 		FA45BD061F4663A10042A483 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA45BD051F4663A10042A483 /* Assets.xcassets */; };
 		FA45BD091F4663A10042A483 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA45BD071F4663A10042A483 /* LaunchScreen.storyboard */; };
-		FA45BD111F4668570042A483 /* apple-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = FA45BD101F4668570042A483 /* apple-logo.png */; };
+		FA45BD131F466B7A0042A483 /* apple-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = FA45BD121F466B7A0042A483 /* apple-logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		FA45BD051F4663A10042A483 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA45BD081F4663A10042A483 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA45BD0A1F4663A10042A483 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FA45BD101F4668570042A483 /* apple-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "apple-logo.png"; path = "../../apple-logo.png"; sourceTree = "<group>"; };
+		FA45BD121F466B7A0042A483 /* apple-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "apple-logo.png"; path = "../../apple-logo.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +60,7 @@
 				FA45BD001F4663A00042A483 /* ViewController.swift */,
 				FA45BD021F4663A10042A483 /* Main.storyboard */,
 				FA45BD051F4663A10042A483 /* Assets.xcassets */,
-				FA45BD101F4668570042A483 /* apple-logo.png */,
+				FA45BD121F466B7A0042A483 /* apple-logo.png */,
 				FA45BD071F4663A10042A483 /* LaunchScreen.storyboard */,
 				FA45BD0A1F4663A10042A483 /* Info.plist */,
 			);
@@ -127,7 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA45BD091F4663A10042A483 /* LaunchScreen.storyboard in Resources */,
-				FA45BD111F4668570042A483 /* apple-logo.png in Resources */,
+				FA45BD131F466B7A0042A483 /* apple-logo.png in Resources */,
 				FA45BD061F4663A10042A483 /* Assets.xcassets in Resources */,
 				FA45BD041F4663A10042A483 /* Main.storyboard in Resources */,
 			);
